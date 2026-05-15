@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import {
-  Building2, Brick, Hammer, DoorClosed, ChefHat, LayoutGrid,
+  Building2, Layers, Hammer, DoorClosed, ChefHat, LayoutGrid,
   Droplets, Zap, ArrowUpDown, Footprints, Plug, AppWindow, Car, Waves
 } from "lucide-react";
 
 const SPECS = [
   { icon: Building2, t: "Super Structure", d: "RCC framed structure with earthquake-resistant design." },
-  { icon: Brick, t: "Walls", d: "Traditional clay brick masonry. External 9″ & 6″, internal 4½″." },
+  { icon: Layers, t: "Walls", d: "Traditional clay brick masonry. External 9″ & 6″, internal 4½″." },
   { icon: Hammer, t: "Plastering", d: "Sponge-finished double-coat externally. Semi-sponge internally." },
   { icon: DoorClosed, t: "Doors", d: "Polished teakwood main door. WPC frames and designed flush doors." },
   { icon: ChefHat, t: "Kitchen", d: "Granite platform, stainless steel sink, RO point, vitrified dado." },
