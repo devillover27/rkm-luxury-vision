@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
+import gkGrand from "@/assets/gk-grand-apartments.jpg";
 import villa from "@/assets/project-villa.jpg";
 import apartment from "@/assets/project-apartment.jpg";
 import commercial from "@/assets/project-commercial.jpg";
 import community from "@/assets/project-community.jpg";
 
 const PROJECTS = [
-  { img: villa, name: "Maison Aurelia", loc: "Coastal Estates, Goa", type: "Private Villa", status: "Now Selling", roi: "18% p.a." },
-  { img: apartment, name: "The Solenne", loc: "Banjara Hills, Hyderabad", type: "Sky Residences", status: "Pre-Launch", roi: "22% p.a." },
-  { img: commercial, name: "Atrium Noir", loc: "Financial District", type: "Commercial Tower", status: "Operational", roi: "14% p.a." },
-  { img: community, name: "Vereda Gardens", loc: "Outer Ring, Bengaluru", type: "Gated Community", status: "Phase II", roi: "20% p.a." },
+  { img: gkGrand, name: "GK Grand Apartments", loc: "Atchutapuram, Visakhapatnam", type: "2 BHK Residences", status: "Now Selling", roi: "Flagship Launch" },
+  { img: villa, name: "Maison Aurelia", loc: "Coastal Estates, Visakhapatnam", type: "Private Villa", status: "Pre-Launch", roi: "18% p.a." },
+  { img: apartment, name: "The Solenne", loc: "Madhapur, Hyderabad", type: "Sky Residences", status: "Phase II", roi: "22% p.a." },
+  { img: commercial, name: "Atrium Noir", loc: "Financial District, Hyderabad", type: "Commercial Tower", status: "Operational", roi: "14% p.a." },
+  { img: community, name: "Vereda Gardens", loc: "Outer Ring, Vizag", type: "Gated Community", status: "Phase II", roi: "20% p.a." },
 ];
 
 export function Projects() {
