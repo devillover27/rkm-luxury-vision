@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import logo from "@/assets/rkm-logo.jpg";
 
 export function Nav() {
   const { scrollY } = useScroll();
@@ -13,8 +14,11 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-5 md:px-10">
         <a href="#top" className="flex items-center gap-3">
-          <span className="font-display text-2xl tracking-wide gold-text">RKM</span>
-          <span className="font-cinzel text-[10px] text-bone/60">PROJECTS</span>
+          <img src={logo} alt="RKM Projects" className="h-10 w-10 rounded-sm object-cover ring-1 ring-gold/40" />
+          <div className="leading-tight">
+            <span className="block font-display text-xl tracking-wide gold-text">RKM Projects</span>
+            <span className="font-cinzel text-[8px] tracking-[0.3em] text-bone/50">CRAFTING LUXURY LIVING</span>
+          </div>
         </a>
         <nav className="hidden gap-10 md:flex">
           {items.map((i) => (
