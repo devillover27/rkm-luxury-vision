@@ -123,8 +123,8 @@ export function Hero() {
         className="absolute bottom-24 left-6 z-10 hidden md:block"
       >
         <div className="glass rounded-sm px-5 py-4">
-          <p className="font-cinzel text-[10px] tracking-widest text-gold/80">EST. 2014</p>
-          <p className="mt-1 font-display text-lg text-bone">A Decade of Distinction</p>
+          <p className="font-cinzel text-[10px] tracking-widest text-gold/80">SINCE 2011</p>
+          <p className="mt-1 font-display text-lg text-bone">15 Years of Distinction</p>
         </div>
       </motion.div>
       <motion.div
@@ -134,8 +134,8 @@ export function Hero() {
         className="absolute bottom-24 right-6 z-10 hidden md:block"
       >
         <div className="glass rounded-sm px-5 py-4 text-right">
-          <p className="font-cinzel text-[10px] tracking-widest text-gold/80">PORTFOLIO</p>
-          <p className="mt-1 font-display text-lg text-bone">42+ Signature Projects</p>
+          <p className="font-cinzel text-[10px] tracking-widest text-gold/80">NRI WING</p>
+          <p className="mt-1 font-display text-lg text-bone">Network Across 40 Countries</p>
         </div>
       </motion.div>
     </section>

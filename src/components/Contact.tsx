@@ -84,21 +84,23 @@ export function Contact() {
             className="flex flex-col justify-between"
           >
             <div className="glass-gold rounded-sm p-10 md:p-12">
-              <p className="font-cinzel text-[10px] tracking-widest text-gold">◆  EXPERIENCE CENTRE</p>
-              <p className="mt-6 font-display text-4xl text-bone">RKM Pavilion</p>
+              <p className="font-cinzel text-[10px] tracking-widest text-gold">◆  CORPORATE OFFICE</p>
+              <p className="mt-6 font-display text-4xl text-bone">RKM Projects</p>
               <p className="mt-4 text-sm leading-relaxed text-bone/70">
-                14, Aurum Boulevard,<br/>
-                Jubilee Hills, Hyderabad — 500033<br/>
-                India
+                Flat No. 302, Third Floor,<br/>
+                Sirul Next, Beverely Hill, Guttala,<br/>
+                Begumpet, Madhapur,<br/>
+                Hyderabad, Telangana — 500 081
               </p>
               <div className="mt-8 grid grid-cols-2 gap-6 border-t border-gold/20 pt-6">
                 <div>
                   <p className="font-cinzel text-[10px] tracking-widest text-bone/50">CALL</p>
-                  <p className="mt-1 font-display text-lg text-bone">+91 90 1234 5678</p>
+                  <p className="mt-1 font-display text-lg text-bone">+91 92475 82271</p>
+                  <p className="font-display text-lg text-bone">+91 92475 82272</p>
                 </div>
                 <div>
                   <p className="font-cinzel text-[10px] tracking-widest text-bone/50">WRITE</p>
-                  <p className="mt-1 font-display text-lg text-bone">concierge@rkm.in</p>
+                  <p className="mt-1 font-display text-base text-bone">rkmprojects.hyd@gmail.com</p>
                 </div>
               </div>
             </div>
